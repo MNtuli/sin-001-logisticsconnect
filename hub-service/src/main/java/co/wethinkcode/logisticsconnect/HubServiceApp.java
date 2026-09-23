@@ -29,6 +29,7 @@ public class HubServiceApp {
 
         HttpClient client = HttpClient.newHttpClient();
 
+
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create("http://localhost:7050/hubs"))
                 .GET()
